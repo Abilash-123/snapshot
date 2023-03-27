@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -27,6 +27,11 @@
 .App-link {
   color: #61dafb;
 }
+.image-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +40,16 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.image-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
+.flickr-image:hover{
+     transform:scale(1.1);
+     cursor:pointer;
+}
+
+
